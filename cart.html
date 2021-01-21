@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.79.0">
+    <title>Кондитерская</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }	  
+
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    
+	<div class="container-fluid">
+      <a class="navbar-brand" href="#"><h1>Кондитерская</h1></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    </div>
+	
+	<div class="container-fluid">
+      <span id="tel_adr">
+	  Телефон: 8 (800) 854-98-98 </br>
+	  Адрес: Москва, ул. Академика Королева, 12
+	  </span>	  
+    </div>
+	
+	<div class="container-fluid">
+	  <div class="container-fluid">
+		<img src="z1.png" align="right"/>
+		<img src="z2.png" align="right"/>
+	  </div>
+    </div>
+  </nav>
+  
+  
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+	
+	<div class="container-fluid">
+
+    </div>
+	
+	<div class="container-fluid">
+      
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="white-color navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item white-color">
+            <a class="nav-link" aria-current="page" href="index.html"><h2>ГЛАВНАЯ </h2></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="catalog.html"><h2>ПРОДУКЦИЯ </h2></a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="cart.html"><h2>КОРЗИНА</h2></a>
+          </li>
+
+        </ul>
+        
+      </div>
+    </div>
+	
+	<div class="container-fluid">
+      
+
+    </div>
+  </nav>
+  
+</header>
+
+<main>
+
+	
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+		
+	<hr class="featurette-divider">
+		
+	<div class="row head_row_new"><span id="header_new"><h1>Ваша корзина</h1></span></div>
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">	  
+      <div class="col-lg-4 prod_item">
+        <div class="top_item">
+			<img class="bd-placeholder-img rounded-circle" src="tort1.jpg"/>
+		</div>
+		
+		<div class="">
+			<h2> Торт "Наполеон"</h2>
+			<p>230 рублей</p>
+			
+		</div>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4 prod_item">
+        <img class="bd-placeholder-img rounded-circle" src="tort2.jpg"/>
+
+        <h2>Торт "Медовик"</h2>
+        
+        <p>Очень сладкий торт!</p>
+		
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4 prod_item">
+        <img class="bd-placeholder-img rounded-circle" src="tort3.jpg"/>
+
+        <h2>Торт "Прага"</h2>
+        <p>Полезный торт!</p>
+        
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+	
+	
+	
+	
+	
+	
+	<div class="row g-3">
+      <div class="col-md-5 col-lg-4 order-md-last">
+	    
+		  </br>
+		  </br>
+		  </br>
+		  <div class="my-3">
+            <div class="form-check">
+              <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+              <label class="form-check-label" for="credit">Доставка</label>
+            </div>
+            <div class="form-check">
+              <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+              <label class="form-check-label" for="debit">Самовывоз</label>
+            </div>
+
+          </div>
+		
+		
+        <h4 class="d-flex justify-content-between align-items-center mb-3">
+          <span class="text-muted">Сумма заказа:</span>
+          <span class="badge bg-secondary rounded-pill">1520 рублей</span>
+        </h4>
+
+      </div>
+      <div class="col-md-7 col-lg-8">
+        <h4 class="mb-3">Оформление заказа</h4>
+        <form class="needs-validation" novalidate>
+          <div class="row g-3">
+            
+            <div class="col-12">
+              <label for="email" class="form-label">ФИО: </label>
+              <input type="email" class="form-control" id="email" placeholder="">
+              <div class="invalid-feedback">
+                Введите ФИО
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address" class="form-label">Телефон:</label>
+              <input type="text" class="form-control" id="address" placeholder="" required>
+              <div class="invalid-feedback">
+                Введите телефон
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address2" class="form-label">Адрес: <span class="text-muted">(Optional)</span></label>
+              <input type="text" class="form-control" id="address2" placeholder="">
+            </div>
+
+
+          </div>
+
+          <hr class="my-4">
+
+
+          <button class="w-100 btn btn-primary btn-lg" type="submit">Заказать</button>
+        </form>
+      </div>
+    </div>
+	
+	
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+    
+
+    
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Наверх</a></p>
+    <p>&copy; 2021 Кондитерская &middot; <a href="#"> Политика конфиденциальности</a> &middot; <a href="#">Контакты</a>  &middot; <a href="sklad.php">Вход для сотрудника</a></p>
+  </footer>
+</main>
+
+
+    <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>

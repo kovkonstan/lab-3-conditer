@@ -1,0 +1,155 @@
+root { 
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+html{
+    padding: 0px;
+    margin: 0px;
+}
+body 
+{
+    padding: 0px 200px 0px 200px;
+    max-width: 800px;
+    min-width: 800px;
+    height: auto;
+    overflow-x:hidden;
+    overflow-y:scroll;
+    font-family: calibri;
+ 
+}
+
+
+#header {
+    background:#fff;
+    border-bottom: #0099ff solid 2px;
+    padding:10px 0px 10px 0px;
+    margin:0px; 
+    color:#000;
+}
+
+.logo
+{
+    padding: 0px 0px;
+    color:#000;
+    font-size: 20px;
+    font-family: verdana;
+}
+
+.logo a{
+    color:#000;
+    
+    text-decoration: none;
+    
+}
+
+logo a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.left{
+     float: left;
+     padding: 0px;
+}
+
+.right{
+    float:right;
+    padding: 0px;
+}
+
+#content
+{
+    padding: 10px 0px;
+   
+}
+
+.table
+{
+    width: 800px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.name
+{
+    float: left;
+    min-width: 220px;
+
+    
+}
+
+.type{
+    float:left;
+    width: 130px;
+}
+
+.date
+ {
+    float: left;
+    width: 225px;
+ }
+.count
+ {
+     float:left;
+    width:125px;
+ }
+ 
+ .delitem{
+     border-radius:6px;
+     border: 1px solid #ccc;
+ }
+ 
+ .row{
+     background: #fff;
+     height: 30px;
+     padding:7px 5px 0px;
+     border-radius:2px;
+     border-bottom: 1px #336699 solid;
+ }
+
+
+.additem{
+    background: #fff;
+    padding: 10px 10px;
+    border-bottom-right-radius:8px;
+    border-bottom-left-radius:8px;
+}
+
+.additem input{
+    border-radius:6px;
+    height: 2em;
+    border:1px solid #ccc;
+}
+
+.additem select{
+    min-width: 110px;
+    padding-left:10px;
+    border-radius:6px;
+    border: 1px solid #ccc;
+    height: 2em;
+}
+.error_404
+{
+    padding: 20px;
+    color:#ff3333;
+}
+
+
+.addtype{
+margin-left: 10px;
+   
+}
+
+.addtype input {
+    border-radius:6px;
+    border: 1px solid #ccc;
+    height: 2em;
+    
+}
+
+#footer{
+    background: #fff;
+    font-size: 12px;
+    padding: 10px 5px;
+    
+}
